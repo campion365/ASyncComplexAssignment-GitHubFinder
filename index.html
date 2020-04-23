@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Finder Assignment</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&;family=Raleway:wght@200;400;600&;display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="\GitHub_Logo.png" alt ="github-logo"><br>
+
+    <h1>User and Git Repos API Finder Tool</h1>
+    <form id="githubform">
+        <fieldset>
+        <label for="GitHub-Handle">Enter GitHub Handle</label><br>
+        <input type="text" id="username" name="username" required>
+        <input type="submit"></button>
+    </fieldset>
+    </form>
+
+    <section id ="API-area"><h2>Search Results</h2>
+        <p id ='js-error-msg' class='hidden'></p>
+        <ul id = "results">
+
+        </ul>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
